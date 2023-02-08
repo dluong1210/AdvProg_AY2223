@@ -6,7 +6,9 @@
 #include <algorithm>
 
 #include "hangman.h"
+#include "hangman.cpp"
 #include "draw.h"
+#include "draw.cpp"
 
 int main()
 {
