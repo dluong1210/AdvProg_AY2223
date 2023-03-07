@@ -38,7 +38,7 @@ void Painter::jumpBackward(int numPixel)
 {
     // TODO: jump the painter backward
     this->x -=numPixel*cos( this->angle*3.141592655/180 );
-    this->y -=numPixel*sin( this->angle*3.141592655/180 );
+    this->y +=numPixel*sin( this->angle*3.141592655/180 );
 }
 
 
